@@ -14,7 +14,19 @@ spring:
         native:
           search-locations:
             - file:///${user.dir}/files/eo
-            - file:///${user.dir}/files/eo/auth
         encrypt:
           enabled: false
-
+---
+spring:
+  profile: github
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/excitingobject/config-server.git
+          username: '{cipher}8fa02abf5610e9870bba54ba7654d2029a824b41416f72d57b3250541addbfba'
+          password: '{cipher}37d0c61193ca799c09733c1787e8aa161aefe88381f17c38165b3c6be7bb8f15'
+          search-paths:
+            - files/eo
+        encrypt:
+          enabled: false
