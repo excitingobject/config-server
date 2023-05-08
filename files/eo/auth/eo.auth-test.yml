@@ -1,0 +1,17 @@
+server:
+  port: 9100
+
+spring:
+  #DB
+  jpa:
+    hibernate:
+      ddl-auto: update
+    # sql console
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+  datasource:
+    url: '{cipher}51a7fecba9cc0177907b058e608fff68e853f4d8aca6bffe6eea1a62b05c24e9a039f22e8a70fddd97e33cfab0934ebb5753997acf5dc99dd0b43ee06767ebba16d18c9aae57194164ec108a7b2b8cc871263a964be3715fc723cdbbb17716c2eb681ce2640eebd44efa4cab085cf177'
+    username: '{cipher}c017ceb5a7b176256238f48fff200f9fd74de7f3e21ac8d3e5d0016232eca3bd'
+    password: '{cipher}157a551167c7d996601dffbb209127a186a545be715ddb20177d5668c99fceef'
