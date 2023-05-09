@@ -4,7 +4,7 @@ server:
     context-path: /config
 spring:
   profiles:
-    active: native
+    active: github
   cloud:
     config:
       server:
