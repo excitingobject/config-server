@@ -8,5 +8,3 @@ spring:
           password: '{cipher}37d0c61193ca799c09733c1787e8aa161aefe88381f17c38165b3c6be7bb8f15'
           search-paths:
             - files/eo
-        encrypt:
-          enabled: false
