@@ -4,4 +4,4 @@ server:
     context-path: /config
 spring:
   profiles:
-    active: github
+    active: native
