@@ -6,6 +6,6 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
     serviceUrl:
-      defaultZone: http://localhost:9000/eureka
+      defaultZone: '{cipher}2078f19ebf07535a1081844d832a4f666bead89060205db36ccd4d8cb6f568fc059e0f1a707fed1f9b8cbdb5f236fa1a'
   instance:
     instance-id: ${spring.application.name}:${vcap.application.instance_id:${spring.application.instance_id:${random.value}}}
