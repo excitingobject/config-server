@@ -18,4 +18,4 @@ spring:
 
 excitingobject:
   security:
-    enable: false
+    enable: true
