@@ -1,0 +1,6 @@
+excitingobject:
+  security:
+    enable: true
+    cors:
+      origins:
+        - localhost:8080
