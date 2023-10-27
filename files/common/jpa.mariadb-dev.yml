@@ -5,7 +5,6 @@ spring:
     show-sql: true
     hibernate:
       ddl-auto: update
-
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
     url: '{cipher}6155ffb87bfee4165178a6b1d5c23ca31228cdbd7fb3617bbb501b55ddd9daa3ffa6212505c2dfaa8520aaae8b7ca781c34f999db2e6f1dc2092856be45e759c6a935b2a6e44ca6a7de39689aa3bd97ec0dbf8bb79ce3bc1035129fe0e0eb1b53a648955623d67389786e069ac0c67ca'

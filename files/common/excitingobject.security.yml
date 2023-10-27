@@ -3,4 +3,8 @@ excitingobject:
     enable: true
     cors:
       origins:
-        - localhost:8080
+        localhost:8080
+    authorize:
+      permits:
+        /auth/**,
+        /temp/**

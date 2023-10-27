@@ -4,6 +4,8 @@ server:
     context-path: /config
 
 spring:
+  application:
+    name: eo.config
   profiles:
     active: native
   cloud:
@@ -18,4 +20,4 @@ spring:
 
 excitingobject:
   security:
-    enable: true
+    enable: false

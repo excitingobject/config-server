@@ -16,10 +16,30 @@ spring:
     generate-ddl: false
     show-sql: true
     hibernate:
-      ddl-auto: update
+      ddl-auto: create
   datasource:
     driver-class-name: org.mariadb.jdbc.Driver
     url: '{cipher}6155ffb87bfee4165178a6b1d5c23ca31228cdbd7fb3617bbb501b55ddd9daa3ffa6212505c2dfaa8520aaae8b7ca781c34f999db2e6f1dc2092856be45e759c6a935b2a6e44ca6a7de39689aa3bd97ec0dbf8bb79ce3bc1035129fe0e0eb1b53a648955623d67389786e069ac0c67ca'
     username: '{cipher}afb7c8889f47ddca5cb255e7e58315b1e5b2e186027d5e2dd83318b579d2a0ca'
     password: '{cipher}dab6629588b6b19000d85152dd4a575b8162a460badfbdcbf6f65a73eaebb929'
+  rabbitmq:
+    host: '{cipher}c16498c27cfcdf8fe103298f14deb0e082346845f6c0996db890b98ee5862867'
+    port: '{cipher}eb49a387ea896d2530fc7671424d149bf2cfc783524c1f64d37fd6d421599bf1'
+    username: '{cipher}5b7b7810d1281b9dbefb5086d16a17f3fa3f75d8e07c274fe347bd6f13f23580'
+    password: '{cipher}2c44140c49859a328ff4a0ab7b327298c84569f10738529b75ce0a6fa2ceea14'
 
+excitingobject:
+  security:
+    enable: true
+    cors:
+      origins:
+        localhost:8080
+    authorize:
+      permits:
+        /auth/**
+    token:
+      expires-in: 1800 #30분
+      refresh-expires-in: 17280000
+  mq:
+    prefix: eo
+    env: dev

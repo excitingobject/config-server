@@ -1,0 +1,11 @@
+spring:
+  rabbitmq:
+    host: '{cipher}c16498c27cfcdf8fe103298f14deb0e082346845f6c0996db890b98ee5862867'
+    port: '{cipher}eb49a387ea896d2530fc7671424d149bf2cfc783524c1f64d37fd6d421599bf1'
+    username: '{cipher}5b7b7810d1281b9dbefb5086d16a17f3fa3f75d8e07c274fe347bd6f13f23580'
+    password: '{cipher}2c44140c49859a328ff4a0ab7b327298c84569f10738529b75ce0a6fa2ceea14'
+
+excitingobject:
+  mq:
+    prefix: eo
+    env: dev
