@@ -16,13 +16,11 @@ public class SecurityConfigration {
 
     @Bean
     public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
-        http
-                .authorizeHttpRequests(authorize -> authorize
+        http.authorizeHttpRequests(
+                authorize -> authorize
                         .requestMatchers(HttpMethod.GET).permitAll()
                         .anyRequest().authenticated()
-                )
-                .rememberMe(Customizer.withDefaults());
-
+        ).rememberMe(Customizer.withDefaults());
         return http.build();
     }
 }
