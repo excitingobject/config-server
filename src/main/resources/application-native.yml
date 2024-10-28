@@ -5,3 +5,4 @@ spring:
         native:
           search-locations:
             - file:///${user.dir}/files/eo
+            - classpath/messages
