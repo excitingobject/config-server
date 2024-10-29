@@ -2,4 +2,4 @@ spring:
   main:
     allow-bean-definition-overriding: true
   messages:
-    basename: https://raw.githubusercontent.com/excitingobject/config-server/refs/heads/master/files/messages/message
+    basename: '{cipher}f6276662472165c42f2c6ba6e47f47f5046235b9db178bdf68d720df09996951abad5cf59c62ab0064db93d4f7e1c0fdf0b5b0660560a4fed1dad4e01d8a183cb51bb59da03deb460c9e2bdcd72cb5844805d197762a646af1dd07c344a805a1580c6a6f9e6526984a5dfec94aed48ec90baeabeb679439aefeb683fb7fad88d'
