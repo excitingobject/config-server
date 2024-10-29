@@ -1,0 +1,5 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  messages:
+    basename: https://raw.githubusercontent.com/excitingobject/config-server/refs/heads/master/files/messages/message
