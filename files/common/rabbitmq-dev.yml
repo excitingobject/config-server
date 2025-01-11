@@ -5,7 +5,3 @@ spring:
     username: '{cipher}5b7b7810d1281b9dbefb5086d16a17f3fa3f75d8e07c274fe347bd6f13f23580'
     password: '{cipher}2c44140c49859a328ff4a0ab7b327298c84569f10738529b75ce0a6fa2ceea14'
 
-excitingobject:
-  mq:
-    prefix: eo
-    env: dev
